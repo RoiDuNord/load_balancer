@@ -121,6 +121,5 @@ func (s *SimpleServerConfig) IsAlive() bool {
 }
 
 func (s *SimpleServerConfig) Serve(rw http.ResponseWriter, req *http.Request) {
-	// slog.Info("serving request to backend server", "addr", s.Addr)
 	s.Proxy.ServeHTTP(rw, req)
 }

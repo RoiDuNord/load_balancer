@@ -65,32 +65,3 @@ func logReceivedResponse(req *http.Request, wrapper *ResponseWriterWrapper) {
 		"request_status", message,
 	)
 }
-
-// logResponseReceived(wrapper, availableServer)
-
-// 	if wrapper.StatusCode() >= 200 && wrapper.StatusCode() < 400 {
-// 		logRequestSuccess(req, wrapper.StatusCode())
-// 	} else {
-// 		logRequestFailure(req, wrapper.StatusCode())
-// 	}
-
-// func logResponseReceived(wrapper *ResponseWriterWrapper, availableServer Server) {
-// 	slog.Info("response received from server",
-// 		"status_code", wrapper.StatusCode(),
-// 		"available_server_name", availableServer.Name(),
-// 	)
-// }
-
-// func logRequestSuccess(req *http.Request, statusCode int) {
-// 	slog.Info("request processing succeeded",
-// 		"request_method", req.Method,
-// 		"status_code", statusCode,
-// 	)
-// }
-
-// func logRequestFailure(req *http.Request, statusCode int) {
-// 	slog.Warn("request processing failed",
-// 		"request_method", req.Method,
-// 		"status_code", statusCode,
-// 	)
-// }

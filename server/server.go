@@ -89,14 +89,6 @@ func (lb *LoadBalancer) ServeProxy(rw http.ResponseWriter, req *http.Request) {
 	availableServer.Serve(wrapper, req)
 
 	logReceivedResponse(req, wrapper)
-
-	// logResponseReceived(wrapper, availableServer)
-
-	// if wrapper.StatusCode() >= 200 && wrapper.StatusCode() < 400 {
-	// 	logRequestSuccess(req, wrapper.StatusCode())
-	// } else {
-	// 	logRequestFailure(req, wrapper.StatusCode())
-	// }
 }
 
 func (rw *ResponseWriterWrapper) WriteHeader(code int) {
