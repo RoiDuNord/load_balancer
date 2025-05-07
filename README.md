@@ -11,7 +11,6 @@
 
 Для сборки Docker-образа приложения Load Balancer необходимо:
 
-## Запуск проекта:
 1) Склонировать проект на ваш компьютер с Github с помощью команды:
 ```
 git clone https://github.com/FilimonovAlexey/load_balancer.git
@@ -54,11 +53,6 @@ cd logger
 ```
 tail -f logger.log
 ```
-
-
-# Мультиссылка для социальных сетей на React js
-
-Страница со всеми социальными сетями, является аналогом таких сервисов как: **linktr**, **milkshake**, **Taplink** и многих других.
 
 
 ![React](https://img.shields.io/badge/-React-61daf8?logo=react&logoColor=black)
