@@ -1,7 +1,3 @@
-# Load Balancer Application
-
-Приложение Load Balancer (Балансировщик Нагрузки), разворачиваемое при помощи Docker. В этом README описаны шаги по сборке, запуску и доступу к приложению.
-
 ## Технологии
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
