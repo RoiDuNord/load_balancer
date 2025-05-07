@@ -31,15 +31,15 @@ docker run -p 8080:8080 lb
 
 4) Доступ к запущенному контейнеру
 ```
-docker exec -it {container_id} /bin/sh
+docker exec -it {container_id} /bin/sh // замените {container_id} на фактический ID контейнера
 ```
 
-Замените {container_id} на фактический ID контейнера, который можно найти, выполнив:
 ```
 docker ps
 ```
 
 4) Просмотр логов
+
 Перейдите в директорию логирования:
 ```
 cd logger
