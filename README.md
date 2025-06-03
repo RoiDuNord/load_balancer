@@ -20,7 +20,7 @@ docker info
 
 ## Алгоритм сборки Docker-образа и запуска приложения
 
-1) Клонировать проект на ваш компьютер с Github с помощью команды
+1) Клонировать проект на ваш компьютер из Github с помощью команды
 ```
 git clone https://github.com/RoiDuNord/load_balancer.git
 ```
@@ -39,7 +39,7 @@ docker run -p 8080:8080 lb
 
 4) Проверка работы приложения 
 ```
-GET http://localhost:8080
+GET [Get Site]http://localhost:8080
 ```
 
 5) Доступ к запущенному контейнеру
