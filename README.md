@@ -39,7 +39,7 @@ docker run -p 8080:8080 lb
 
 4) Проверка работы приложения 
 ```
-GET [Get Site]http://localhost:8080
+GET http://localhost:8080
 ```
 
 5) Доступ к запущенному контейнеру
