@@ -73,7 +73,7 @@ func (lb *LoadBalancer) getNextAvailableServer() Server {
 }
 
 func generateRequestID() string {
-	return uuid.New().String()
+	return uuid.NewString()
 }
 
 type ResponseWriterWrapper struct {

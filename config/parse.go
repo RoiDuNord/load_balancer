@@ -94,6 +94,7 @@ func (cfglb ConfigLoadBalancer) validate() error {
 	return nil
 }
 
+
 func (s *SimpleServerConfig) Name() string    { return s.N }
 func (s *SimpleServerConfig) Address() string { return s.Addr }
 func (s *SimpleServerConfig) Port() string    { return s.P }
